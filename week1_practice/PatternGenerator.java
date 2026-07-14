@@ -48,7 +48,6 @@ public class PatternGenerator {
         }
     }
 
-    // 顯示選單
     public static void printMenu() {
         System.out.println("=== Pattern Menu ===");
         System.out.println("1. 九九乘法表");
@@ -58,7 +57,6 @@ public class PatternGenerator {
         System.out.println("0. 離開");
     }
 
-    // 輸入正整數
     public static int readPositiveInt(Scanner sc, String message) {
 
         System.out.print(message);
@@ -71,8 +69,6 @@ public class PatternGenerator {
 
         return num;
     }
-
-    // 九九乘法表
     public static void printMultiplicationTable() {
 
         for (int i = 1; i <= 9; i++) {
@@ -83,7 +79,6 @@ public class PatternGenerator {
         }
     }
 
-    // 正三角形
     public static void printTriangle(int height) {
 
         for (int i = 1; i <= height; i++) {
@@ -94,7 +89,6 @@ public class PatternGenerator {
         }
     }
 
-    // 倒三角形
     public static void printReverseTriangle(int height) {
 
         for (int i = height; i >= 1; i--) {
@@ -105,7 +99,6 @@ public class PatternGenerator {
         }
     }
 
-    // 數字方格
     public static void printNumberGrid(int rows, int cols) {
 
         for (int i = 1; i <= rows; i++) {
